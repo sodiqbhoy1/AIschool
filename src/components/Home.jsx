@@ -73,12 +73,13 @@ const Home = () => {
                 AIschool equips professionals with cutting-edge technical skills through industry-aligned programs in cybersecurity, web development, data science, and educational technology.
               </p>
               <div className="flex gap-4">
-                <button className="bg-[#FB0000] hover:bg-[#E00000] px-8 py-4 rounded-lg flex items-center gap-2 transition-all">
-                  Explore Courses <FiArrowRight />
-                </button>
-                <button className="border-2 border-[#1E90FF] text-[#1E90FF] hover:bg-[#1E90FF]/10 px-8 py-4 rounded-lg transition-all">
-                  Attend Webinar
-                </button>
+              <button className="bg-[#FB0000] hover:bg-[#E00000] px-6 py-3 rounded-lg flex items-center gap-2 transition-all text-sm md:px-8 md:py-4 md:text-base">
+  Explore Courses <FiArrowRight />
+</button>
+<button className="border-2 border-[#1E90FF] text-[#1E90FF] hover:bg-[#1E90FF]/10 px-6 py-3 rounded-lg transition-all text-sm md:px-8 md:py-4 md:text-base">
+  Attend Webinar
+</button>
+
               </div>
             </motion.div>
           </div>
